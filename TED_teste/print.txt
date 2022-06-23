@@ -1,0 +1,17 @@
+        //Printando desordenado
+        System.out.println("\n\nDesordenado");
+        for(int i = 0; i < vetor_desordenado.length; i++){
+            System.out.print(vetor_desordenado[i] + " ");
+        }
+        
+        //Printado ordenado 
+        System.out.println("\n\nOrdenado");
+        for(int i = 0; i < vetor_ordenado.length; i++){
+            System.out.print(vetor_ordenado[i] + " ");
+        }
+        
+        //printando semi ordenado
+        System.out.println("\n\nSemi ordenado");
+        for(int i = 0; i < vetor_semi_ordenado.length; i++){
+            System.out.print(vetor_semi_ordenado[i] + " ");
+        }
